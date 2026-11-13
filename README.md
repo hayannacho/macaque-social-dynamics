@@ -98,3 +98,5 @@ I led the **configuration and biology layer**, translating biological assumption
 This is a **six-person team project**. Samantha led the SDE/multirate side; Benyuan the ODE/RK4 side; Anna the configuration/biology layer; Aaryan discrete events; Jenny the experiment pipeline; and Parisa visualization. See [full credit boundaries](docs/CONTRIBUTIONS.md).
 
 The original [MIT license](LICENSE), including its copyright notice, is preserved unchanged. Original source records are retained with source hashes in [the manifest](docs/source-manifest.json). No original Git history was supplied for this snapshot, so this edition does not reconstruct commit authorship or imply that its packaging date is the original development date.
+
+The archived [AI use statement](AI_USAGE.md) is a **team-level record** without individual user attribution; it does not establish personal AI use by Anna Cho.
