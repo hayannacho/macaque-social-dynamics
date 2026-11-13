@@ -9,7 +9,7 @@ The final report explicitly assigns Anna:
 - the matrilineal-rank-inheritance initializer;
 - the biological cross-reference and tuned-defaults justification from primary literature.
 
-The unchanged source excerpt is in [team-contributions.txt](source/team-contributions.txt). It comes from the **Division of Labor** section of `final_report.tex` in the supplied project snapshot. Module headers identify Dev C in `config/sim_config.py` and `initializer/mri_init.py`; `config/scenarios.py` identifies both Dev E and Dev C. These are documentary attributions, not independently recovered Git commit evidence.
+The unchanged source excerpt is in [team-contributions.txt](source/team-contributions.txt). It comes from the **Division of Labor** section of `final_report.tex` in the supplied project snapshot. Module headers identify Dev C in `config/sim_config.py`, jointly assign `initializer/mri_init.py` to Dev C and Dev D, and assign `config/scenarios.py` to Dev E and Dev C. Leading the configuration and biology layer does not imply sole implementation of the shared initializer. These are documentary attributions, not independently recovered Git commit evidence.
 
 ### Suggested review path
 

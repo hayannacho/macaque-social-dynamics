@@ -82,7 +82,7 @@ I led the **configuration and biology layer**, translating biological assumption
 | Matrilineal rank inheritance (MRI) initialization | [`mri_init.py`](macaque_sim/initializer/mri_init.py) | Matriline construction, initial ranks, normalized power, and alliance seeding |
 | Biological interpretation | [Contribution notes](docs/CONTRIBUTIONS.md) and [original biological background](docs/source/biological_background.original.md) | Literature-based interpretation and justification of tuned defaults, with model limitations kept explicit |
 
-**Shared-file boundary:** `scenarios.py` also contains Jenny's experiment schema and scenario factories. My contribution is the grooming-matrix portion; I do not claim sole authorship of that file, the numerical solvers, or the full simulator. The tests linked below exercise my contribution areas; they are retained team tests, not a claim that I authored each test.
+**Shared-file boundary:** `scenarios.py` also contains the team's experiment schema and scenario factories. `mri_init.py` is jointly assigned in the original module header; my role was leading the configuration and biology layer, not sole implementation of the initializer. My contribution is the grooming-matrix portion; I do not claim sole authorship of that file, the numerical solvers, or the full simulator. The tests linked below exercise my contribution areas; they are retained team tests, not a claim that I authored each test.
 
 [Original division of labor](docs/source/team-contributions.txt) · [Team credits and evidence](docs/CONTRIBUTIONS.md)
 
@@ -95,7 +95,7 @@ I led the **configuration and biology layer**, translating biological assumption
 
 ## Team and license
 
-This is a **six-person team project**. Samantha led the SDE/multirate side; Benyuan the ODE/RK4 side; Anna the configuration/biology layer; Aaryan discrete events; Jenny the experiment pipeline; and Parisa visualization. See [full credit boundaries](docs/CONTRIBUTIONS.md).
+This is a **six-person team project** spanning numerical integration, configuration and biology, discrete events, experimental workflows, and visualization. See [contribution scope and original evidence](docs/CONTRIBUTIONS.md).
 
 The original [MIT license](LICENSE), including its copyright notice, is preserved unchanged. Original source records are retained with source hashes in [the manifest](docs/source-manifest.json). No original Git history was supplied for this snapshot, so this edition does not reconstruct commit authorship or imply that its packaging date is the original development date.
 
