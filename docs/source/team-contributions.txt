@@ -1,0 +1,13 @@
+The simulator divides into a numerical core, a configuration and biology layer, a discrete-event layer, an experimental-pipeline layer, and a visualization layer. Each of us led one.
+
+\textbf{Samantha} owned the SDE side of the numerical core -- the Euler-Maruyama integrator and the multi-rate controller that couples it to the ODE side -- and led the production Monte Carlo sweeps and sensitivity analysis that the headline findings are built on.
+
+\textbf{Benyuan} owned the ODE side -- the continuous-time power-iteration RK4 integrator with simplex-preserving renormalization and divergence detection -- and partnered with Aaryan on the integration tests that locked in the tuned defaults.
+
+\textbf{Anna} owned the configuration and biology layer -- \texttt{SimConfig}, the three grooming-matrix strategies, and the matrilineal-rank-inheritance initializer -- and authored the biological cross-reference (\S\ref{sec:discussion}) and tuned-defaults justification (\S\ref{sec:tuned-defaults}) from the primary literature.
+
+\textbf{Aaryan} owned the discrete-event layer -- the hysteresis overthrow engine, the cooldown tracker, and the structured logger -- with particular attention to the multi-swap-per-macro-step regime that coalition grooming produces.
+
+\textbf{Jenny} owned the experimental-pipeline layer -- the scenario schema, the perturbation injector, and the Monte Carlo runner with atomic checkpointing -- and produced the 6{,}000-trial production dataset that \S\ref{sec:results} is built on.
+
+\textbf{Parisa} owned the visualization layer end-to-end -- rank heatmaps, the phase diagram, the hysteresis loop, and the matriline-aggregated views that make 30-agent dynamics legible.

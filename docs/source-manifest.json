@@ -1,0 +1,252 @@
+{
+  "source_archive": "GATECH.zip",
+  "source_prefix": "GATECH/Spring2026/CSE6730Model&Sim/project/CSE6730-main/",
+  "unchanged_files": [
+    {
+      "path": "egbib.bib",
+      "sha256": "c641d85994d4ce6306e7bb3b93791313a243bd9b0f661ddf1a57778b5f256bec"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e0141f52b8ec81475a7fb99b546a245aa2be1fbd6df8a4e54ee0a9485dba1f55"
+    },
+    {
+      "path": "macaque_sim/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "macaque_sim/main.py",
+      "sha256": "84546f4510a53923515c274a0e9392f1f62085162438de83e302dc73264ad164"
+    },
+    {
+      "path": "scripts/study_adaptive_epsilon.py",
+      "sha256": "ee35e497516abd6e781ae611860dfb98d6a86cb190b0e6b09eb13392e842a482"
+    },
+    {
+      "path": "scripts/plot_followups.py",
+      "sha256": "b9acabb69e0b03698e607cdc9b34a7c7c7b5100d9b26f20f8e811d8be9d226bd"
+    },
+    {
+      "path": "scripts/study_coupling.py",
+      "sha256": "c85756d9a7c653ea70fda9bb2e8ddee6331a411dc79598bfc6c8b6d550c73ab6"
+    },
+    {
+      "path": "scripts/study_cooldown.py",
+      "sha256": "dcfadca154bc12a8fef50e7decf9ed21febea89b5b3b65073ee317da0156d11f"
+    },
+    {
+      "path": "scripts/study_convergence.py",
+      "sha256": "c95c6764164ea897ad5b9398563dbec7bc26819a6813798f8242679749e947d0"
+    },
+    {
+      "path": "macaque_sim/visualization/style.py",
+      "sha256": "b324cfb02712a1ad4db5f79a9b6fde2977d770ad5d343c8464d57820bed2ba3b"
+    },
+    {
+      "path": "macaque_sim/visualization/phase_diagram.py",
+      "sha256": "d87cca0bb225e3b045dddb15754ff5d4afd26b9d84d9c097d0fe50f0f37f0099"
+    },
+    {
+      "path": "macaque_sim/visualization/rank_heatmap.py",
+      "sha256": "9237c075edd867786b10ea3d1b4b1b35cf0d3243cd646193c2b559469f09be2c"
+    },
+    {
+      "path": "macaque_sim/visualization/__init__.py",
+      "sha256": "ad49805869060d28dc8d1ccd28053d15792805647423e1495878ffd347ae541d"
+    },
+    {
+      "path": "macaque_sim/visualization/flow.py",
+      "sha256": "42133cf245b9f6d9927abdafeaf7e5b9cf7e51c70a0877d2dc02dd2c6d0663d8"
+    },
+    {
+      "path": "macaque_sim/visualization/rank_animation.py",
+      "sha256": "129c070c54cdba194e59a282310bba5914a60b94794ccacdb6830f3903c94853"
+    },
+    {
+      "path": "macaque_sim/visualization/hysteresis.py",
+      "sha256": "839402befa82d9bb4748cccffdb7289a3ad548db06dcbfd7cf6b35cc4b19e1c7"
+    },
+    {
+      "path": "macaque_sim/visualization/centrality_ts.py",
+      "sha256": "cf933cc862114416b6e43066ebf70c0e5665ef7dd6759a2972d3c18f91677e16"
+    },
+    {
+      "path": "macaque_sim/visualization/bump_chart.py",
+      "sha256": "5c0e6d00d895998340e9d57300fdaf86ac20c868cb060cc891f9bd4ca4b136a1"
+    },
+    {
+      "path": "macaque_sim/visualization/arena.py",
+      "sha256": "b9aaec59273ecfe31186e4a8bda6469c25d7ecc2a9043793cd02fa408f84fe9f"
+    },
+    {
+      "path": "macaque_sim/initializer/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "macaque_sim/initializer/mri_init.py",
+      "sha256": "fec5446aa16c6aa5c46f827d7d0cd6587d488f0d2b66e2cb368703f9ccea2a47"
+    },
+    {
+      "path": "macaque_sim/analysis/__init__.py",
+      "sha256": "40a540c14e2557834815bb8063272aa126c46b120c372fd8423a55481fb1ca29"
+    },
+    {
+      "path": "macaque_sim/analysis/sensitivity.py",
+      "sha256": "ebe64c8dced5221074af7583ffcd47e1c94455a2eec29c77037d92be02c57268"
+    },
+    {
+      "path": "macaque_sim/config/scenarios.py",
+      "sha256": "e4da9c1083dbe8f73cd59bfc7b905bc60675ec9b67e26448acd6b140484b1e1e"
+    },
+    {
+      "path": "macaque_sim/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "macaque_sim/config/sim_config.py",
+      "sha256": "3ae8cde7ce3e0a84da8ed648a26c5e99c93d5d66f52940be0bb64092b6f157a0"
+    },
+    {
+      "path": "macaque_sim/experiments/hysteresis_experiment.py",
+      "sha256": "a534d78c6b223313118c0e9a63fd5d3c29b25a9fc6453709779d5d29546c2504"
+    },
+    {
+      "path": "macaque_sim/experiments/perturbations.py",
+      "sha256": "b9387d894481389698a799b5cac7aeae7f67166d18a41964243d7f5559040c49"
+    },
+    {
+      "path": "macaque_sim/experiments/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "macaque_sim/experiments/monte_carlo.py",
+      "sha256": "2f8369065189d303ca6efed895b944678e77869978462a3cd51e96c107995d37"
+    },
+    {
+      "path": "macaque_sim/experiments/run_sprint4_mc.py",
+      "sha256": "19c60bb8aa927d51c3cb96170b3bf06277d03d29e5fe90257143e61f184ea147"
+    },
+    {
+      "path": "macaque_sim/experiments/results_io.py",
+      "sha256": "87b2cc3000ce51b7b0178e0bfd1b3bddd81a678099c46163011ab72ebbf75db1"
+    },
+    {
+      "path": "macaque_sim/tests/test_hysteresis_and_cooldown.py",
+      "sha256": "c8cb1cb5e295ec9a1212d0db187447eca6c569172d017a4142a1481b11a97932"
+    },
+    {
+      "path": "macaque_sim/tests/test_cooldown.py",
+      "sha256": "1e1cff89de19e294659ed42649e670a734138818f92f58331f422ca0c66cb7a5"
+    },
+    {
+      "path": "macaque_sim/tests/test_monte_carlo.py",
+      "sha256": "c46ecd33222065ed119e92523ce7c660aba311c73d1f295d6caaafef7874d28d"
+    },
+    {
+      "path": "macaque_sim/tests/test_sensitivity.py",
+      "sha256": "ef9c787a9d28961eadd9743f6edad7898c4fcfecfa0a4e36622d02d9639d5964"
+    },
+    {
+      "path": "macaque_sim/tests/test_solvers.py",
+      "sha256": "9aa7a8b04553d66eaa692398743572f08c5806bbe5ea8a0c89021033195ad3f5"
+    },
+    {
+      "path": "macaque_sim/tests/test_perturbations.py",
+      "sha256": "6d923cb62e4359bd25aa5e50ab2edff06d5212b5be37ff6fadab175a46d0e5ef"
+    },
+    {
+      "path": "macaque_sim/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "macaque_sim/tests/test_run_sprint4_mc.py",
+      "sha256": "3a7b6630cf866eae734cdf142d84ab67581eba4ddd00e1ca3e8d3cc0c14d538e"
+    },
+    {
+      "path": "macaque_sim/tests/test_config.py",
+      "sha256": "99e79642830221cca4df4888310da50977739928429ecfa560ce7795f46cd924"
+    },
+    {
+      "path": "macaque_sim/tests/test_scenarios.py",
+      "sha256": "1e804e3cb75b89bb1cb94dbaf34de6dc03adaafb2158760fb2cbbbdbf1a8fa76"
+    },
+    {
+      "path": "macaque_sim/tests/test_stability.py",
+      "sha256": "7e380bbffff703075ed48dd6e43af73ec487f4853b1cf03a170250a1226ca7a8"
+    },
+    {
+      "path": "macaque_sim/tests/test_integration.py",
+      "sha256": "641407f6732b97bc97416513e45d0053793f2d4cfbc128beff8e54322289ce21"
+    },
+    {
+      "path": "macaque_sim/tests/test_events.py",
+      "sha256": "4dd8291748f0b0ddd6d145fa30471d7a76213131d33ae7591c9b99754c2350eb"
+    },
+    {
+      "path": "macaque_sim/tests/test_mri_init.py",
+      "sha256": "b2266b0a7811b111185d64e2734ed156c0ef405e652122bfe14fb064c985cb3b"
+    },
+    {
+      "path": "macaque_sim/tests/test_init.py",
+      "sha256": "d3b2d50ed400ed7427a249241ebe15f35e80ae116e3be2b1331b80fa23be01f8"
+    },
+    {
+      "path": "macaque_sim/tests/test_pipeline.py",
+      "sha256": "dc033db747cc207393af28ab4d549ffaaec7f04ffbdf972414dfc55e05288bf3"
+    },
+    {
+      "path": "macaque_sim/tests/test_mri_init2.py",
+      "sha256": "9a25a67238daf5633927094321aaf4e42296ef617d53fa86615fc35e2dc59e95"
+    },
+    {
+      "path": "macaque_sim/tests/test_grooming_matrix.py",
+      "sha256": "fd7dd0614db7f5c804936e42a7a22a311858ac94760afce720b6a09cface07fa"
+    },
+    {
+      "path": "macaque_sim/solvers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "macaque_sim/solvers/rk4.py",
+      "sha256": "ac5618f0c0f174f2fcdca1ffec42bbe594659026ca4bc612a2f26bc705a573da"
+    },
+    {
+      "path": "macaque_sim/solvers/multirate.py",
+      "sha256": "a926d25883326da71da5d6aae99005f91104cfe3c54ce6aaf9b07e52f7ec5f36"
+    },
+    {
+      "path": "macaque_sim/solvers/euler_maruyama.py",
+      "sha256": "27745cf516136130ecb4ac82c61947775a95502a04cda2968ff6dd570b8bddd4"
+    },
+    {
+      "path": "macaque_sim/events/cooldown.py",
+      "sha256": "d94b390d3cef5dad3b20ce23910ea8e2a98fb178a3273b9bb4f408381b429047"
+    },
+    {
+      "path": "macaque_sim/events/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "macaque_sim/events/logger.py",
+      "sha256": "9592bdc97a4f0bf5c65fdb4f4c92b20c272e44ebe678d8e892b6f3fd8eec66e5"
+    },
+    {
+      "path": "macaque_sim/events/hysteresis.py",
+      "sha256": "febe44dcdef22f69bca52768c32df4ad069619b6a201df8253bfe270c958b300"
+    },
+    {
+      "path": "macaque_sim/events/epsilon_tracker.py",
+      "sha256": "386db5faed16980ddfe445a5ea29f3f087bf6d40032f8b8c1c9e9fc22b15be71"
+    },
+    {
+      "path": "docs/source/AI_usage.original.md",
+      "source": "AI_usage.md",
+      "sha256": "3bd7d3c1d1153830bad56ef86f0b007d4348f6bb76004b1c2304299fb1ee5426"
+    },
+    {
+      "path": "docs/source/biological_background.original.md",
+      "source": "project_management/reports/biological_background.md",
+      "sha256": "e8460dafda65fe60d4d94a7712ca85ec9555e268252196fb99e7987c6997a4cf"
+    }
+  ]
+}

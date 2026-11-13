@@ -1,0 +1,6 @@
+{
+  "N": 30,
+  "T": 10.0,
+  "random_seed": 42,
+  "grooming_strategy": "coalition"
+}
