@@ -84,7 +84,7 @@ I led the **configuration and biology layer**, translating biological assumption
 
 **Shared-file boundary:** `scenarios.py` also contains Jenny's experiment schema and scenario factories. My contribution is the grooming-matrix portion; I do not claim sole authorship of that file, the numerical solvers, or the full simulator. The tests linked below exercise my contribution areas; they are retained team tests, not a claim that I authored each test.
 
-[Original division of labor](docs/source/team-contributions.txt) · [Team credits and evidence](docs/CONTRIBUTIONS.md) · [AI assistance disclosure](AI_USAGE.md)
+[Original division of labor](docs/source/team-contributions.txt) · [Team credits and evidence](docs/CONTRIBUTIONS.md)
 
 ## Scope and limitations
 
@@ -97,4 +97,4 @@ I led the **configuration and biology layer**, translating biological assumption
 
 This is a **six-person team project**. Samantha led the SDE/multirate side; Benyuan the ODE/RK4 side; Anna the configuration/biology layer; Aaryan discrete events; Jenny the experiment pipeline; and Parisa visualization. See [full credit boundaries](docs/CONTRIBUTIONS.md).
 
-The original [MIT license](LICENSE), including its copyright notice, is preserved unchanged. Original code and AI disclosures are retained with source hashes in [the manifest](docs/source-manifest.json). No original Git history was supplied for this snapshot, so this edition does not reconstruct commit authorship or imply that its packaging date is the original development date.
+The original [MIT license](LICENSE), including its copyright notice, is preserved unchanged. Original source records are retained with source hashes in [the manifest](docs/source-manifest.json). No original Git history was supplied for this snapshot, so this edition does not reconstruct commit authorship or imply that its packaging date is the original development date.

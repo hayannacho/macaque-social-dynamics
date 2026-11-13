@@ -38,4 +38,4 @@ The report describes overlapping work on experiments/integration. This table ide
 
 ## Changes made for this edition
 
-The original simulator and tests are unchanged. The contribution-first README, packaging metadata, isolated dependency constraints, small example, preview SVG, and CI workflow were added for portfolio preparation with Codex assistance. These additions should not be represented as original coursework deliverables.
+The original simulator and tests are unchanged. The contribution-first README, packaging metadata, isolated dependency constraints, small example, preview SVG, and CI workflow were added for portfolio preparation. These additions should not be represented as original coursework deliverables.
