@@ -1,0 +1,23 @@
+{
+  "uniform": {
+    "seed": 42,
+    "agents": 30,
+    "logged_steps": 20,
+    "final_logged_time": 9.5,
+    "rank_change_events": 0
+  },
+  "upward_biased": {
+    "seed": 42,
+    "agents": 30,
+    "logged_steps": 20,
+    "final_logged_time": 9.5,
+    "rank_change_events": 15
+  },
+  "coalition": {
+    "seed": 42,
+    "agents": 30,
+    "logged_steps": 20,
+    "final_logged_time": 9.5,
+    "rank_change_events": 6
+  }
+}

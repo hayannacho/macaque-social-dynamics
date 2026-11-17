@@ -1,5 +1,11 @@
 # Local validation — 2026-11-13
 
+## Portfolio visualization — 2026-11-17
+
+The current public source was rerun on Python 3.12.14. The original suite passed **281 tests**, retaining its six Feller-condition warnings. `examples/plot_strategy_results.py` runs all three strategies with seed 42, N=30, and T=10, exports 1,800 agent-state values, and checks finite normalized power at every logged step. Each strategy logs 20 states through t=9.5; event counts are uniform 0, upward-biased 15, and coalition 6. These are single-seed illustrative outputs, not Monte Carlo findings.
+
+The PNG was rendered with Matplotlib 3.11.2 and visually checked. [Exported trajectories](demo/power-trajectories.csv) and [run settings](demo/run-summary.json) support the figure. Original model files are unchanged; the figure generator is a later addition.
+
 Environment: macOS arm64, Python 3.12. Dependencies are recorded in [constraints-tested.txt](../constraints-tested.txt).
 
 | Check | Observed result |
